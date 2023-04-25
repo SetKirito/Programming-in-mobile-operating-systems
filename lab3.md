@@ -20,7 +20,11 @@ docker run -d --name registry-ui -p 8080:80 jc21/registry-ui
 
 docker run -d --name shipyard --link registry-ui:registry-ui -v /var/run/docker.sock:/var/run/docker.sock shipyard/shipyard
 
-А после этого подключался к APIdocker
+А после этого подключался к APIdocker:
+a)открыл порт 8000
+b)перешел по адресу моего сеанса в pwd 
+c)ввел логин и пароль по умолчанию
+d)добавил реестр docker
 
 для 4 шага:
 
