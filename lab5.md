@@ -16,8 +16,6 @@
 2)```docker exec -it postgres-container psql -U postgres```
 
 3)После чего в оболочке psql
-
-4)
 ```
 CREATE TABLE users (
   id SERIAL PRIMARY KEY,
