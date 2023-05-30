@@ -48,5 +48,5 @@ CREATE TABLE products (
 
 3)```docker run -d -p 8080:80 -v storage:/usr/share/nginx/html -v /path/to/config/nginx.conf:/etc/nginx/nginx.conf --name nginx-container nginx``` (очень много думал над этим)
 
-4)И наконец ```curl http://localhost:<внешний_порт>```
+4)И наконец ```curl http://localhost:8080:80```
 
