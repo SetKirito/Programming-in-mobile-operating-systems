@@ -14,7 +14,9 @@ COPY app.py .
 
 CMD ["python", "app.py"] ```
 
-2.```
+
+2.
+```
 FROM node:14-alpine
 
 WORKDIR /app
