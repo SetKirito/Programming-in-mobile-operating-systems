@@ -1,8 +1,7 @@
 Практические задания №2:
 
-1. ```
-
-FROM python:3.9-slim
+1. 
+```FROM python:3.9-slim
 
 WORKDIR /app
 
@@ -12,12 +11,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
 
-CMD ["python", "app.py"] ```
+CMD ["python", "app.py"]
+```
 
 
 2.
-```
-FROM node:14-alpine
+```FROM node:14-alpine
 
 WORKDIR /app
 
