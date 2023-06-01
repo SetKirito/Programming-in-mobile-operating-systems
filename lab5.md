@@ -1,7 +1,7 @@
 1. Для монтирования volume в мой прошлый проект я:
 
 
-1)создал дерикторию mkdir/var/www/html/data
+1)создал директорию mkdir/var/www/html/data
 
 2)```docker build -t kanye1```
 
